@@ -1,13 +1,11 @@
-# CoolAdmin Bootstrap 4.1 Admin Dashboard Template
-**CoolAdmin** is a responsive Bootstrap 4.1 admin template. It provides you with a collection of ready to use code snippets and utilities, custom pages, loads of charts, 4 different dashboard variations, a collection of applications and some useful widgets. Preview of this awesome admin template available here: https://colorlib.com/polygon/cooladmin/index.html
+# Gerenciador de medicamentos Medhealth
+**Medhealth** é um serviço IOT, composto por um dispositivo dispensador de remédios configurável através de um site, nele o usuário poderá fazer seu cadastro e terá informações sobre seus medicamentos, podendo configurar o horário e a frequência dos remédios que faz uso diariamente, na plataforma também será possível a configuração de e-mails para alertas quando medicamentos não forem tomados.
 
 # Preview
 
 ### Screenshot
 
 ![CoolAdmin admin dashboard template preview](https://colorlib.com/wp/wp-content/uploads/sites/2/Dashboard-v2.jpg)
-
-### Demo Site: [[Here]](https://colorlib.com/polygon/cooladmin/index.html)
 
 ### TOC
 - [Built With](#built-with)
