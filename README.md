@@ -5,7 +5,7 @@
 
 ### Screenshot
 
-![CoolAdmin admin dashboard template preview](https://colorlib.com/wp/wp-content/uploads/sites/2/Dashboard-v2.jpg)
+![Medhealth dashboard template preview](https://telegra.ph/file/7ae1225673662e4cadc2f.png)
 
 ### TOC
 - [Built With](#built-with)
