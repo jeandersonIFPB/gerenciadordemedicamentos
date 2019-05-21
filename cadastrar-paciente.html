@@ -217,87 +217,115 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mt-4">
-                            <div class="col-md-12">
-                                <div class="card">
-                                    <div class="card-header">Preencha o formulário</div>
-                                    <div class="card-body card-block">
-                                        <form action="" method="post" class="">
-                                            <div class="mx-auto d-block">
-                                                <img class="rounded-circle mx-auto d-block"
-                                                    src="images/icon/avatar-01.jpg" alt="Card image cap">
-                                            </div>
-                                            <div style="text-align:center">
-                                                <p>Aperte na imagem para escolher a foto.</p>
-                                            </div>
-                                            <div class="form-group mt-4">
-                                                <div class="input-group">
-                                                    <div class="input-group-addon">
-                                                        <i class="fa fa-user"></i>
-                                                    </div>
-                                                    <input type="text" id="username" name="username" placeholder="Nome"
-                                                        class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="row form-group">
-                                                    <div class="col col-md-3">
-                                                        <label class=" form-control-label">Gênero</label>
-                                                    </div>
-                                                    <div class="col col-md-9">
-                                                        <div class="form-check-inline form-check">
-                                                            <label for="inline-radio1" class="form-check-label ">
-                                                                <input type="radio" id="inline-radio1" name="inline-radios" value="option1" class="form-check-input">Masculino
-                                                            </label>
-                                                            <label for="inline-radio2" class="form-check-label ">
-                                                                <input type="radio" id="inline-radio2" name="inline-radios" value="option2" class="form-check-input">Feminino
-                                                            </label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            <div class="form-group">
-                                                <div class="input-group">
-                                                    <div class="input-group-addon">
-                                                        <i class="fa fa-envelope"></i>
-                                                    </div>
-                                                    <input type="date" id="date" name="date" placeholder="Data" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="input-group">
-                                                    <div class="input-group-addon">
-                                                        <i class="fa fa-envelope"></i>
-                                                    </div>
-                                                    <input type="email" id="email" name="email" placeholder="E-mail"
-                                                        class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="input-group">
-                                                    <div class="input-group-addon">
-                                                        <i class="fas fa-phone"></i>
-                                                    </div>
-                                                    <input type="tel" id="phone" name="phone" placeholder="Telefone"
-                                                        class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                    <div class="input-group">
-                                                        <div class="input-group-addon">
-                                                            <i class="fa fa-user"></i>
-                                                        </div>
-                                                        <input type="address" id="address" name="address" placeholder="Endereço"
-                                                            class="form-control">
-                                                    </div>
-                                                </div>
-                                            <div class="form-actions form-group">
-                                                <button type="submit" class="btn btn-success btn-sm">Enviar</button>
-                                            </div>
-                                        </form>
-                                    </div>
+                        <div class="col-lg-12 mt-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Preencha o formulário
                                 </div>
-
-
-
+                                <div class="card-body card-block">
+                                    <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="text-input" class=" form-control-label">Nome do
+                                                    paciente</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="text" id="username" name="username" placeholder="Nome"
+                                                    class="form-control">
+                                                <small class="form-text text-muted">Digite o nome completo do
+                                                    paciente</small>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="text-input" class=" form-control-label">Data de
+                                                    nascimento</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="date" id="date" name="date" placeholder="Data"
+                                                    class="form-control">
+                                                <small class="form-text text-muted">Escolha a data de nascimento do
+                                                    paciente</small>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="select" class=" form-control-label">Sexo do paciente</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <select name="select" id="select" class="form-control">
+                                                    <option value="0">Escolher</option>
+                                                    <option value="1">Masculino</option>
+                                                    <option value="2">Feminino</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="email-input" class=" form-control-label">E-mail do
+                                                    paciente</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="email" id="email" name="email" placeholder="E-mail"
+                                                    class="form-control">
+                                                <small class="help-block form-text">Por favor digite o e-mail do
+                                                    paciente</small>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="text-input" class=" form-control-label">Telefone do
+                                                    paciente</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="tel" id="phone" name="phone" placeholder="Telefone"
+                                                    class="form-control">
+                                                <small class="form-text text-muted">Digite o número do paciente no
+                                                    formato (xx) xxxxx-xxxx</small>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="text-input" class=" form-control-label">Endereço do
+                                                    paciente</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="address" id="address" name="address" placeholder="Endereço"
+                                                    class="form-control">
+                                                <small class="form-text text-muted">Exemplo: Av. Primeiro de Maio, 720
+                                                </small>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="textarea-input" class=" form-control-label">Descrição do
+                                                    paciente</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <textarea name="textarea-input" id="textarea-input" rows="9"
+                                                    placeholder="Digite aqui..." class="form-control"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="file-input" class=" form-control-label">Foto do
+                                                    paciente</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="file" id="file-input" name="file-input"
+                                                    class="form-control-file">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="card-footer">
+                                    <button type="submit" class="btn btn-primary btn-sm">
+                                        <i class="fa fa-dot-circle-o"></i> Enviar
+                                    </button>
+                                    <button type="reset" class="btn btn-danger btn-sm">
+                                        <i class="fa fa-ban"></i> Limpar
+                                    </button>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
